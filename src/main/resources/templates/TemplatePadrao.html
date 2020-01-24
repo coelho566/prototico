@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" 
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portifolio</title>
+</head>
+<body>
+   
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/images/screen-9.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="/images/leandro.jpg"></a>
+      <a href="#name"><span class="white-text name">Leandro de Lima Coelho</span></a>
+      <a href="#email"><span class="white-text email">leandrofreestyle18@gmail.com</span></a>
+      </div>
+    </li>
+    <div class="social-link">
+        <a href="https://www.linkedin.com/in/leandro-de-lima-coelho-88a5a0154/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="https://github.com/coelho566"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://pt.stackoverflow.com/users/175652/leandro-de-lima-coelho"><i class="fab fa-stack-overflow fa-2x"></i></a>
+        <a href="https://twitter.com/login?lang=pt"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+
+    <li><a class="waves-effect" href="home"> <i class="fas fa-home fa-2x"></i><span>Home</span></a></li>
+    <li><a class="waves-effect" href="projeto"> <i class="fas fa-laptop-code fa-2x"></i><span>Projetos</span></a></li>
+    <li><a class="waves-effect" href="skills"> <i class="fas fa-code fa-2x"></i><span>Skills</span></a></li>
+    <li><a class="waves-effect" href="contato"> <i class="fas fa-paper-plane fa-2x"></i><span>Contato</span></a></li>
+  </ul>
+  <div class="botao">
+  <a href="#" data-target="slide-out" class="sidenav-trigger btn-floating pulse light-blue darken-3"><i class="material-icons">menu</i></a>
+  </div>
+<section layout:fragment="conteudo">
+
+</section>
+  
+
+
+
+
+
+<script src="/js/jquery.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/all.js"></script>
+<script src="js/typed.js"></script>
+</body>
+</html>
